@@ -1,0 +1,26 @@
+.dialogs {
+    display: flex;
+    width: 100%;
+}
+
+.dialogsItems {
+    max-width: 200px;
+    width: 100%;
+}
+
+.dialogsItems .dialog {
+
+}
+
+.dialogsItems .dialog.active {
+    color: gold;
+}
+
+.messages {
+    width: 100%;
+}
+
+.messages .message {
+
+}
+

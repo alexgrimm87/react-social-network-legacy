@@ -1,0 +1,24 @@
+.sidebar {
+    margin-right: 30px;
+    max-width: 200px;
+    width: 100%;
+    background: #4a76a8;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a.active {
+    color: red;
+}
+
+.navigation a:hover {
+    opacity: 0.8;
+}
