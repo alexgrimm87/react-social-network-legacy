@@ -1,8 +1,25 @@
 .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     margin-bottom: 30px;
-    background: #4a76a8;
+    background: white;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 .header img {
     width: 90px;
+}
+
+.loginBlock {
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
+.loginBlock a {
+    color: white;
+}
+
+.header .headerMenu {
+    background: white;
 }

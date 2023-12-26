@@ -1,0 +1,41 @@
+.paginator {
+    margin: 10px 0;
+}
+
+.pageNumber {
+    display: inline-block;
+    margin-right: 8px;
+    min-width: 32px;
+    height: 32px;
+    padding: 2px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    background: white;
+    cursor: pointer;
+}
+
+.pageNumber.selectedPage,
+.pageNumber:hover {
+    color: rgb(0, 119, 255);
+    border-color: rgb(0, 119, 255);
+}
+
+.pageNumberButton {
+    height: 32px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    background: white;
+    cursor: pointer;
+}
+
+.pageNumberButton.prev {
+    margin-right: 8px;
+}
+
+.pageNumberButton:hover {
+    color: rgb(0, 119, 255);
+    border-color: rgb(0, 119, 255);
+}

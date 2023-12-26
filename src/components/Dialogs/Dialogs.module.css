@@ -1,26 +1,21 @@
 .dialogs {
     display: flex;
-    width: 100%;
 }
 
-.dialogsItems {
+.dialogs_items {
     max-width: 200px;
     width: 100%;
 }
 
-.dialogsItems .dialog {
+.dialog {
 
 }
 
-.dialogsItems .dialog.active {
-    color: gold;
+.dialog.active {
+    color: orange;
 }
 
 .messages {
+    max-width: 200px;
     width: 100%;
 }
-
-.messages .message {
-
-}
-

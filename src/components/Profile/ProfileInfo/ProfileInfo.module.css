@@ -9,10 +9,44 @@
 }
 
 .avatar {
-    height: 300px;
-    width: 300px;
+    position: relative;
+    border: 5px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .avatar img {
+    border: 1px solid gray;
+    border-radius: 50%;
+}
 
+.changeAvatar {
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+    height: 36px;
+    width: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    background: lightgray url("../../../assets/images/photo.png") center center no-repeat;
+    background-size: 27px;
+    border-radius: 50%;
+}
+
+.changeAvatar input {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    font-size:50px;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+
+.contact {
+    padding-left: 10px;
 }
